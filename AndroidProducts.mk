@@ -16,3 +16,8 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/miku_kugo.mk
+
+COMMON_LUNCH_CHOICES := \
+    miku_kugo-user \
+    miku_kugo-userdebug \
+    miku_kugo-eng
