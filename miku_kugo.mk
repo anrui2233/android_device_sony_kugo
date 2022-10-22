@@ -21,15 +21,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from kugo device
 $(call inherit-product, device/sony/kugo/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
-
-# Boot animation
-TARGET_SCREEN_HEIGHT := 1280
-TARGET_SCREEN_WIDTH := 720
+# Inherit some common Miku UI stuff.
+$(call inherit-product, vendor/miku/build/product/miku_product.mk)
 
 # Device identifications
-PRODUCT_NAME := lineage_kugo
+PRODUCT_NAME := miku_kugo
 PRODUCT_DEVICE := kugo
 PRODUCT_BRAND := Sony
 PRODUCT_MODEL := Xperia X Compact

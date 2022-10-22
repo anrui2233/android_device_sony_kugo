@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_kugo.mk
+    $(LOCAL_DIR)/miku_kugo.mk
