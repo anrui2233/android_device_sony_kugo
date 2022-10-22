@@ -22,7 +22,7 @@ DEVICE_PATH := device/sony/kugo
 TARGET_SCREEN_DENSITY := 320
 
 # Kernel
-TARGET_KERNEL_CONFIG := loire_kugo_defconfig
+TARGET_KERNEL_CONFIG := aosp_loire_kugo_defconfig
 
 # Partition sizes
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 6197084160
