@@ -18,6 +18,9 @@ include device/sony/loire-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/sony/kugo
 
+# Display
+TARGET_SCREEN_DENSITY := 320
+
 # Kernel
 TARGET_KERNEL_CONFIG := loire_kugo_defconfig
 
